@@ -1,6 +1,41 @@
 ## 저장소 생성
  
 - 원하는 폴더 들어간 후
+
 ```
 git init
+```
+
+## 코드 생성
+
+- README 라는 파일에 스트링 문자 생성
+
+```
+echo "Hello, Git!" > README.md
+```
+
+## Staging 영역에 추가
+
+- 현재 디렉토리에 업데이트된 파일 모두 추가
+
+```
+git add .
+```
+
+- 수정된 파일 모두 스테이징 영역 추가
+
+```
+git add -A
+```
+
+- 현재 add 내역 확인
+
+```
+git status
+```
+
+## Repository 에 commit
+
+```
+git commit -m "Hello"
 ```
