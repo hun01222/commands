@@ -39,3 +39,35 @@ git status
 ```
 git commit -m "Hello"
 ```
+
+## 원격저장소에 push, 업데이트된 내용 가져오기는 pull
+
+- 원격 저장소 연결
+
+```
+git remote add origin URL
+```
+
+- 원격 저장소 제거
+
+```
+git remote remove origin
+```
+
+- push
+
+```
+git push origin master
+```
+
+ - push 가 안되면 강제로 push
+ 
+ ```
+ git push origin +master
+ ```
+
+- 상대방 업데이트 된 내용 받아오기
+
+```
+git pull
+```
