@@ -8,7 +8,7 @@
 - current path `pwd`
 - list of directory `ls`
 - go to directory `cd`
-- open file `cat {file name}`
+- open file `open {file name}`
 - make folder `mkdir {folder name}`
 - delete folder `rm -r {folder name}`
 - delete file `rm`
