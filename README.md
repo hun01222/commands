@@ -2,6 +2,6 @@
 
 CLI가 어색한 나를 위한 cheatsheet.
 
-## [github](github/working-flow.md)
+## [github](github/working_flow.md)
 
-## [mac terminal](mac-terminal/basics.md)
+## [mac terminal](mac_terminal/basics.md)
