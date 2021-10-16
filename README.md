@@ -6,6 +6,8 @@ CLI가 어색한 나를 위한 cheatsheet.
 
 ### [WorkingFlow](github/WorkingFlow.md)
 
-### [Undo](github/undo.md)
+### [Undo](github/Undo.md)
 
-## [mac terminal](MacTerminal/basics.md)
+## mac terminal
+
+## [Basics](MacTerminal/basics.md)
