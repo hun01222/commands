@@ -10,4 +10,4 @@ CLI가 어색한 나를 위한 cheatsheet.
 
 ## mac terminal
 
-## [Basics](MacTerminal/basics.md)
+### [Basics](MacTerminal/basics.md)
