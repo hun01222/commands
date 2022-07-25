@@ -39,7 +39,7 @@ git status
 ```
 git commit -m "Hello"
 ```
-- commit = 버전 = 
+**commit = 버전 = 타임캡슐**
 
 ## 원격저장소에 push, 업데이트된 내용 가져오기는 pull
 
