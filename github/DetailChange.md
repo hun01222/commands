@@ -64,3 +64,18 @@ git reset --hart (돌아갈 커밋 해시)
 
 
 revert: 이후 내역들을 유지한 채 원하는 시점으로 돌아간다.
+
+```
+git revert (되돌릴 커밋 해시)
+```
+
+
+reset 사용해서 revert 전으로 되돌아가기
+
+```
+git revert --no-commit (되돌릴  커밋 해시)
+```
+취소하려면
+```
+git reset --hard
+```
