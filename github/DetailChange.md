@@ -43,3 +43,9 @@ git commit -m "FIRST COMMIT"
 ```
 git log
 ```
+
+`add`와 `commit`을 한꺼번에
+```
+git commit -am "(메시지)"
+```
+- 새로 추가된(untracked) 파일이 없을 때 한정
