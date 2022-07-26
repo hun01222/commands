@@ -8,6 +8,8 @@ CLI cheatsheet.
 
 ### [Undo](github/Undo.md)
 
+### [DetailChange] (github/DetailChange.md)
+
 ## mac terminal
 
 ### [Basics](MacTerminal/basics.md)
