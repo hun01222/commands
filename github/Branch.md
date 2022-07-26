@@ -96,4 +96,4 @@ git merge --abort
 ```
 git rebase --continue
 ```
-- 충돌이 모두 
+- 충돌이 모두 해결될 때까지 반복
