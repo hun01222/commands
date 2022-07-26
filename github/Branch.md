@@ -41,3 +41,10 @@ git branch -D {branch}
 ```
 git branch -m {기존 브랜치} {새 브랜치}
 ```
+
+## 각각의 브랜치에서 서로 다른 작업해보기
+
+여러 브랜치의 내역 편리하게 보기
+```
+git log --all --decorate --oneline --graph
+```
