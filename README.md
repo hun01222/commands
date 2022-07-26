@@ -10,7 +10,7 @@ CLI cheatsheet.
 
 ### [DetailChange](github/DetailChange.md)
 
-### [branch](github/branch.md)
+### [Branch](github/Branch.md)
 
 ## mac terminal
 
