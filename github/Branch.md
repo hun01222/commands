@@ -53,14 +53,25 @@ git log --all --decorate --oneline --graph
 
 ### merge: 두 브랜치를 한 커밋에 이어붙인다. (history가 남음)
 
-`master` 브랜치로 이동
-`add-coach` 브랜치를 `master` 브랜치로 merge
+- `add-coach` 브랜치를 `master` 브랜치로 merge
+- `master` 브랜치로 이동
 ```
 git merge add-coach
 ```
+- 병합된 브랜치는 삭제
 
 merge는 reset으로 되돌리기 가능
 
 ### rebase: 브랜치를 다른 브랜치에 이어붙인다. (history가 남지 않음)
 
-`new-teams` 브랜치를 `main` 브랜치로 rebase
+- `new-teams` 브랜치를 `main` 브랜치로 rebase
+- `new-teams` 브랜치로 이동 (`merge` 때와는 반대)
+```
+git rebase master
+```
+- `main` 브랜치로 이동 후 아래 명령어로 `new-teams`의 시점으로 fast-forward
+```
+git merge new-teams
+```
+- `new-teams` 브랜치 삭제
+
