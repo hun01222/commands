@@ -53,7 +53,6 @@ git log --all --decorate --oneline --graph
 
 ### merge: 두 브랜치를 한 커밋에 이어붙인다. (history가 남음)
 
-`add-coach` 브랜치를 `master` 브랜치로 merge
 `master` 브랜치로 이동
 `add-coach` 브랜치를 `master` 브랜치로 merge
 ```
