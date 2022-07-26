@@ -18,4 +18,4 @@ CLI cheatsheet.
 
 ## GoormIDE hotkeys
 
-### [Basics](GoormIDE/basics.md)
+### [Basics](GoormIDE/Basics.md)
