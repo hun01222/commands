@@ -31,3 +31,10 @@ git remote -v
 ```
 git remote remove {remote repository name}
 ```
+
+## GitHub에서 프로젝트 다운받기
+
+터미널로 대상 폴더 이동 후
+```
+git clone {https protocol}
+```
