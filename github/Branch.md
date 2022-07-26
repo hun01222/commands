@@ -75,3 +75,15 @@ git merge new-teams
 ```
 - `new-teams` 브랜치 삭제
 
+## 충돌 해결하기
+
+### `merge` 충돌 해결하기
+
+당장 충돌 해결이 어려울 경우 `merge` 중단
+```
+git merge --abort
+```
+
+해결 가능 시 충돌 부분을 수정한 후 병합 완료
+
+### `rebase` 충돌 해결하기
