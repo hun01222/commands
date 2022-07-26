@@ -12,6 +12,8 @@ CLI cheatsheet.
 
 ### [Branch](github/Branch.md)
 
+### [Remote](github/Remote.md)
+
 ## mac terminal
 
 ### [Basics](MacTerminal/basics.md)
