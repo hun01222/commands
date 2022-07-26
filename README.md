@@ -8,7 +8,7 @@ CLI cheatsheet.
 
 ### [Undo](github/Undo.md)
 
-### [DetailChange] (github/DetailChange.md)
+### [DetailChange](github/DetailChange.md)
 
 ## mac terminal
 
