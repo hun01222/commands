@@ -48,3 +48,20 @@ git branch -m {기존 브랜치} {새 브랜치}
 ```
 git log --all --decorate --oneline --graph
 ```
+
+## branch를 합치기
+
+### merge: 두 브랜치를 한 커밋에 이어붙인다. (history가 남음)
+
+`add-coach` 브랜치를 `master` 브랜치로 merge
+`master` 브랜치로 이동
+`add-coach` 브랜치를 `master` 브랜치로 merge
+```
+git merge add-coach
+```
+
+merge는 reset으로 되돌리기 가능
+
+### rebase: 브랜치를 다른 브랜치에 이어붙인다. (history가 남지 않음)
+
+`new-teams` 브랜치를 `main` 브랜치로 rebase
