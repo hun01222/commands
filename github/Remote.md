@@ -38,3 +38,17 @@ git remote remove {remote repository name}
 ```
 git clone {https protocol}
 ```
+
+## pull 할 것이 있을 때 push를 하면?
+
+1. merge 방식
+```
+git pull --no-rebase
+```
+
+2. rebase 방식
+```
+git pull --rebase
+```
+
+이후 push하기
