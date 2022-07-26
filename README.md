@@ -12,6 +12,6 @@ CLI cheatsheet.
 
 ### [Basics](MacTerminal/basics.md)
 
-## goormide hotkeys
+## GoormIDE hotkeys
 
 ### [Basics](GoormIDE/basics.md)
