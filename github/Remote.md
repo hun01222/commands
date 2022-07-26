@@ -52,3 +52,34 @@ git pull --rebase
 ```
 
 이후 push하기
+
+## 원격의 브랜치 다루기
+
+### 로컬에서 브랜치 만들어 원격에 push하기
+
+  1. `from-local`브랜치 만들기
+  2. 아래 명령어로 원격에 `push`
+  ```
+  git push -u origin from-local
+  ```
+  3. 브랜치 목록 살펴보기
+  ```
+  git branch -all
+  ```
+  
+### 원격의 브랜치 로컬에 받아오기
+
+  1. 아래 명령어로 원격의 변경사항 확인
+  ```
+  git fetch
+  ```
+  2. 아래 명령어로 로컬에 같은 이름의 브랜치를 생성하여 연결하고 switch
+  ```
+  git switch -t origin/from-remote
+  ```
+  
+### 원격의 브랜치 삭제
+
+```
+git push {원격 이름} --delete {원격의 브랜치명}
+```
