@@ -24,4 +24,4 @@ CLI cheatsheet.
 
 ### [vscode](IDEhotkey/vscode.md)
 
-### [goorm](GoormIDE/goormIDE.md)
+### [goorm](IDEhotkey/goormIDE.md)
