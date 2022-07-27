@@ -20,6 +20,8 @@ CLI cheatsheet.
 
 ### [Basics](MacTerminal/basics.md)
 
-## GoormIDE hotkeys
+## IDEhotkeys
 
-### [Basics](GoormIDE/Basics.md)
+### [vscode](IDEhotkey/vscode.md)
+
+### [goorm](GoormIDE/goormIDE.md)
