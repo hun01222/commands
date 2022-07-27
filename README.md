@@ -14,6 +14,8 @@ CLI cheatsheet.
 
 ### [Remote](github/Remote.md)
 
+### [Cooperation](github/Cooperation.md)
+
 ## mac terminal
 
 ### [Basics](MacTerminal/basics.md)
