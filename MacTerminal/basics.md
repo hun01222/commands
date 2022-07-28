@@ -10,6 +10,9 @@
 - list of directory `ls`
 - go to directory `cd`
 - open file `open {file name}`
+- make file
+  - `cat > {file name}` : 파일을 생성하면서 데이터를 입력
+  - `touch` : 빈 파일을 생성하거나 수정시간을 변경
 - make directory `mkdir {folder name}`
 - delete directory `rm -r {folder name}`
 - delete directory as recursive force `rm -rf {folder name}`
