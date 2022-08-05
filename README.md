@@ -16,9 +16,9 @@ CLI cheatsheet.
 
 ### [Cooperation](github/Cooperation.md)
 
-## mac terminal
+## UNIX
 
-### [Basics](MacTerminal/basics.md)
+### [Basics](UNIX/basics.md)
 
 ## IDEhotkeys
 
