@@ -43,3 +43,8 @@
 
 - 환경 변수 출력 : `echo {opt} {string}`
 - 환경 변수 보기 : `env`
+
+## LINUX 에서 thread 관리
+
+- ```g++ -pthread -o 83_thread 83_thread.cpp```
+  pthread 는 POSIX Thread 의 약자로 유닉스계열 POSIX 시스템에서 병렬적으로 작동하는 소프트웨어를 작성하기 위하여 제공하는 API
