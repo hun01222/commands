@@ -43,8 +43,28 @@
 
 - 환경 변수 출력 : `echo {opt} {string}`
 - 환경 변수 보기 : `env`
+- 특정 파일에서 지정한 문자열이나 정규표현식을 포함한 행을 출력 : `grep`
+
+## LINUX 에서 사양 확인
+### CPU 사양 확인
+ - 전체적인 CPU 사양 확인 `cat /proc/cpuinfo`
+ - CPU 코어 수 확인 `grep 'physical id' \proc\cpuinfo | uniq | wc -l`
+### 메모리 확인
+ - 전체 메모리 사용 현황 확인 `cat /etc/meminfo`
+ - 메모리 용량 확인 `free -h`
+### OS 정보 확인
+ - `cat /etc/*release`
+### 용량 확인
+ - `df -h`
+### 디스크 볼륨 확인
+ - `fdisk -l`
+### RAID 정보 확인
+ - `cat /proc/mdstat`
 
 ## LINUX 에서 thread 관리
 
 - ```g++ -pthread -o 83_thread 83_thread.cpp```
   pthread 는 POSIX Thread 의 약자로 유닉스계열 POSIX 시스템에서 병렬적으로 작동하는 소프트웨어를 작성하기 위하여 제공하는 API
+
+## 기타
+ - /proc : 리눅스 커널에서 직접 파일시스템을 관리
