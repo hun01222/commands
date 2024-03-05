@@ -20,6 +20,7 @@
 - copy `copy {file} {directory}`
 - move A to B `mv {A} {B}`
 - source (스크립트 파일을 수정한 후 수정된 값을 바로 적용하기 위해 사용하는 명령어) `source {file}`
+- `-a` : all
 
 ## 특수 문자 관련
 
